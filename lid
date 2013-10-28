@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 
-from random import randint as x
+from random import randint as r
 
-r=range(0,10);print(''.join([{k:'nprcvmxzbsoaeiouaeio'[k::10]for k in r}[x(0,9)]for _ in r[:5]]))
+print(''.join(['no','pa','re','ci','vo','mu','xa','ze','bi','so'][r(0,9)]for x in range(0,5)))
